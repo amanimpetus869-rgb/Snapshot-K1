@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Smoke Suite">
+
+	<test name="Smoke">
+		<!--
+		<packages>
+			<package name="CT.Snapshot_K1"></package>
+		</packages>
+		-->
+		<classes>
+			<class name="CT.Snapshot_K1.LoginTest" />
+			<!--<class name="CT.Snapshot_K1.NavigationTest" />
+			<class name="CT.Snapshot_K1.SnapshotsTest" />-->
+			<class name="CT.Snapshot_K1.SourceManagementTest"></class>
+		</classes>
+
+	</test>
+
+</suite>
